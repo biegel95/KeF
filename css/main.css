@@ -1,0 +1,280 @@
+/* FONTS */
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/latoregular/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/latoregular/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latoblack';
+    src: url('../fonts/latoblack/lato-black-webfont.woff2') format('woff2'),
+         url('../fonts/latoblack/lato-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* GERAL */
+.noPadding {
+	padding: 0px;
+}
+
+/* TOPO */
+header {
+	position: relative;
+	z-index: 2;
+	margin-top: 20px;
+}
+
+.telefoneTopo {
+	margin-top: 16px;
+}
+
+.telefoneTopo img {
+	position: relative;
+	top: -3px;
+	margin-right: 5px;
+}
+
+.telefoneTopo label {
+	font-family: "latoregular";
+	font-style: italic;
+	font-size: 15px;
+	color: white; 
+}
+
+/* MENU */
+@media screen and (min-width: 992px) {
+	.navbar .navbar-nav {
+	  display: inline-block;
+	  float: none;
+	  vertical-align: top;
+	}
+
+	.navbar .navbar-collapse {
+	  text-align: center;
+	}
+}
+
+.corMenu {
+	background: transparent;
+	border: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+	font-family: "latoregular";
+	font-size: 15px;
+	border-bottom: 3px solid transparent;
+	padding-bottom: 30px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: white;
+	border-color: white;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: white;
+	border-color: white;
+	background: transparent;
+}
+
+/* BANNER */
+.banner {
+	position: relative;
+	margin-top: -108px;
+	z-index: 1;
+	float: left;
+}
+
+.design {
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+.design img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* CHAMADAS */
+
+.chamadas {
+	float: left;
+	width: 100%;
+}
+
+.quemSomosHome {
+	margin-top: -30px;
+}
+
+.tituloChamada {
+	float: left;
+	width: 100%;
+	font-family: "latoblack";
+	font-size: 40px;
+	color: #333333;
+	margin-top: 30px;
+}
+
+.chamadas label {
+	font-family: "latoblack";
+	font-size: 40px;
+	color: #333333;
+}
+
+.chamadas .cor2 {
+	color: #676027;
+}
+
+.chamadas p {
+	font-family: "latoregular";
+	font-size: 14px;
+	color: #646464;
+	margin-top: 10px;
+}
+
+.verMais {
+	margin-top: 5px;
+	float: left;
+	padding: 3px 12px;
+	background: transparent;
+	border: 1px solid #333333;
+}
+
+.servicosProdutos {
+	float: left;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	left: 101px;
+	margin-top: 30px;
+}
+
+.separaChamada {
+	margin-top: 20px;
+}
+
+.verMaisChamada {
+	margin-top: 5px;
+	padding: 3px 12px;
+	background: #686128;
+	color: white;
+	border: 0;
+}
+
+.encurtaTxtChamada {
+	padding: 0 80px;
+}
+
+.suportaImage {
+	width: 500px;
+	height: 400px;
+	background-size: cover;
+}
+
+/* RODAPE */
+
+footer {
+	height: 244px;
+	float: left;
+	width: 100%;
+	background-size: cover;
+	background-image: url(../imagem/fundo-rodape.png);
+	margin-top: 20px;
+}
+
+.infosRodape {
+	margin-top: 60px;
+}
+
+.infosRodape label {
+	float: left;
+	width: 100%;
+	font-family: "latoregular";
+	font-size: 16px;
+	color: white;
+}
+
+.infosRodape label img {
+	position: relative;
+	top: 0px;
+	margin-right: 8px;
+}
+
+.infosRodape p {
+	float: left;
+	width: 100%;
+	font-family: "latoregular";
+	font-size: 16px;
+	color: white;
+}
+
+.separaRod {
+	margin-top: 25px;
+}
+
+/* INTERNAS */
+
+h1 {
+	border-bottom: 1px solid #686128;
+	font-family: "latoregular";
+	font-size: 30px;
+	padding-bottom: 7px;
+	margin-bottom: 15px;
+}
+
+.card {
+	height: 100px;
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+
+.card img {
+	bottom: 0;
+    left: 0;
+    margin: auto;
+    max-height: 100px;
+    max-width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* CONTATO */
+
+.contatoForm {
+	margin-top: 15px;
+}
+
+/* SERVICOS */
+.menuLat label {
+	float: left;
+	width: 100%;
+	background-color: #686128;
+	color: white;
+	font-family: "latoregular";
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 35px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+	border-bottom: 2px solid #908b63;
+	cursor: pointer;
+}
+
+.menuLat label:hover {
+	background-color: #7F7A52;
+}
+
+.m-t-0 {
+	margin-top: 0px;
+}
